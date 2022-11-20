@@ -63,7 +63,6 @@ void inOrder(struct Node* node) {
 
     printf("%d",node->data);
 
-
 }
 
 int main() {
@@ -87,6 +86,6 @@ int main() {
 
     // preOrder(root);
     // postOrder(root);
-    // inOrder(root);
+    inOrder(root);
     return 0;
 }
