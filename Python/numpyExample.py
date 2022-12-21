@@ -138,9 +138,11 @@ import numpy as np
 
 # print(np.random.rand(5,3))
 
-arr = np.arange(1,11).reshape(2,5)
+# arr = np.arange(1,11).reshape(2,5)
 
-np.savetxt('array.txt',arr)
+# np.savetxt('array.txt',arr)
 
-r = np.loadtxt('array.txt')
-print(r)
+# r = np.loadtxt('array.txt')
+# print(r)
+
+# print(np.linspace(0,10,3,dtype=int))
